@@ -1,0 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=EB+Garamond&display=swap');
+
+body{
+    font-size: 15px;
+}
+.header{
+    text-align: right;
+    font-family: 'EB Garamond', serif;
+}
+.div{
+    font-family: 'Bad Script', cursive;
+    text-indent: 1.5em;
+}
+.italic{
+    font-style: italic;
+}
+.bold{
+    font-weight: 700;
+}
+.underline{
+    text-decoration: underline;
+}
