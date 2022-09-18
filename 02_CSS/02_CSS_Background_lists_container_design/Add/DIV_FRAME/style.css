@@ -1,0 +1,13 @@
+.background{
+    width: 80%;
+	padding: 2.5em;
+	background: 
+			url('images/left_top.png') no-repeat top left,
+  			url('images/right_top.png') no-repeat top right,
+  			url('images/left_bot.png') no-repeat bottom left,
+  			url('images/right_bot.png') no-repeat bottom right,
+  			url('images/left.png') repeat-y left,  
+  			url('images/top.png') repeat-x top, 
+  			url('images/right.png') repeat-y right, 
+  			url('images/bottom.png') repeat-x bottom;
+  			}
