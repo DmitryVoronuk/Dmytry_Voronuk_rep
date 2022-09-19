@@ -1,0 +1,52 @@
+div.MenuLevel1 {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+}
+div.MenuLevel1 > div {
+    background-color: rgb(212, 212, 212);
+    border: solid black 1px;
+    border-radius: 5px; 
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    width: 100px;
+}
+div.MenuLevel2 {
+    width: 150px;
+    color: black;
+    overflow: hidden;
+    max-height: 0px;
+}
+div.MenuLevel2 > div {
+    background-color: rgb(212, 212, 212);
+    border: solid black 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+div.MenuLevel1 > div:hover div.MenuLevel2 {
+    display: block;
+    position: absolute;           
+    max-height: 100px;
+    transition: 1s ease-in;
+}      
+div.MenuLevel1 > div:hover{
+        background: grey;
+        color: white;
+}
+
+@media all and (max-width: 740px){
+    div.MenuLevel1 {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    div.MenuLevel1 > div:hover div.MenuLevel2 {
+        display: block;
+        position: absolute;           
+        max-height: 100px;
+        left: 100%;
+        top: 1%;
+        transition: 1s ease-in;
+    }      
+}
